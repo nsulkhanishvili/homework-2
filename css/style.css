@@ -40,7 +40,7 @@ ul{
 	width: 550px;
 	height: 526px;
 	display: inline-block;
-	vertical-align: middle;
+	
 }
 .h1-s1{
 	font-size: 78px;
@@ -69,6 +69,5 @@ ul{
 	margin-right: 40px;
 	vertical-align: middle;
 }
-.div-img-s1{
-	vertical-align: middle;
-}
+
+/*section 2*/
