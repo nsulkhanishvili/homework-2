@@ -1,0 +1,74 @@
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	z-index: 999;
+	padding: 72px;
+}
+
+.a-header{
+	display: inline-block;
+	font-size: 32px;
+	color: #4B647E;
+	vertical-align:  middle;
+	margin-right: 500px;
+}
+nav{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+ul{
+	display: flex;
+	justify-content: space-around;
+	width: 600px;
+}
+.li-header{
+	color: #3D37F1;
+	font-size: 20px;
+}
+
+/*section1*/
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.div-s1{
+	margin-top: 265px;
+	width: 550px;
+	height: 526px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.h1-s1{
+	font-size: 78px;
+	color: #534D4D;
+	width: 550px;
+}
+.p-s1{
+	font-size: 22px;
+	color: #534D4D;
+	margin-top: 40px;
+	margin-bottom: 170px;
+}
+
+.button-s1{
+	font-size: 23px;
+	color: white;
+	background-color: #3D37F1;
+	width: 264px;
+	height: 80px;
+	border-radius: 40px;
+	vertical-align: middle;
+
+}
+.button-s1::before{
+	content: url(../images/hand.png);
+	margin-right: 40px;
+	vertical-align: middle;
+}
+.div-img-s1{
+	vertical-align: middle;
+}
